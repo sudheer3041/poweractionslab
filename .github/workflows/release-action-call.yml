@@ -12,7 +12,7 @@ jobs:
     uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: ALMLab
+      solution_name: PowerAppsDeployment
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://org9e4596ce.crm.dynamics.com
       PRODUCTION_ENVIRONMENT_URL: https://org59346ec7.crm.dynamics.com
