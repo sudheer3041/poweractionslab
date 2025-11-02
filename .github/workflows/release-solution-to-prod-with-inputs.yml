@@ -71,9 +71,6 @@ jobs:
     - name: Install Power Platform CLI (PAC)
       uses: microsoft/powerplatform-actions/actions-install@v1
 
-    - name: Verify PAC
-      run: pac --version
-
     - name: Import solution as unmanaged to build env
       uses: microsoft/powerplatform-actions/import-solution@v1
       with:
